@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f8f9fa;
+    text-align: center;
+    color: #333;
+}
+
+header{
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding:0;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    transition:color 0.3s;
+}
+
+nav ul li a:hover{
+    color:#f8d210;
+}
+
+.hero{
+    padding: 80px;
+    background:#007bff;
+    color:white;
+    text-align: center;
+}
+
+.hero h2{
+    font-size:2.5rem;
+    margin-bottom:10px;
+
+}
+
+.hero p{
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    padding: 12px 25px;
+    background: white;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #0056b3;
+    color: white;
+}
+
+.content{
+    padding: 50px;
+    background: white;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px;
+rgba(0,0,0,0.1);
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.projects-container{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.project{
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width:250px;
+    transition:transform 0.3s ease-in-out;
+}
+
+.project:hover{
+    transform:scale(1.05);
+    background:#007BFF;
+    color: white;
+}
+
+#contact a{
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+
+}
+
+#contact a:hover{
+    color: #0056b3;
+}
+
+footer{
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
